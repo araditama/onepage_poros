@@ -1,0 +1,95 @@
+#section0, #section1, #section2, #section3{
+    background: linear-gradient(rgba(92, 255, 198,1),rgba(0, 237, 107,1));
+}
+
+#header{
+    position:fixed;
+    display:block;
+    width: 100%;
+    background: transparent;
+    z-index:9;
+    text-align:center;
+    padding-top: 1.5%;
+    padding-left: 4%;
+    opacity: 0.4;
+}
+#logo{
+    height: 70px;
+    width: auto;
+    float: left;
+}
+
+
+.left-side{
+    height: 70%; 
+    width: 5%; 
+    position:absolute; 
+    left:0%; 
+    bottom: 10%;
+    border-right: 2px solid white;
+}
+.content-logo{
+    height: 70%; 
+    position:absolute; 
+    left: 25%;
+    bottom: 10%;
+    
+}
+.content-text{
+    height: 100%; 
+    position:absolute; 
+    left: 60%;
+    top: 10%;
+    width: 40%;
+    
+}
+.char-title{
+    margin: 0;
+    font-size: 4.5rem;
+    line-height: 3rem;
+    padding-bottom: 40px;
+    text-align: left;
+    font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+
+}
+.char-title.static{
+    color: white;		
+    font-size: 4.5rem;    
+    font-weight: 800;
+    font-family: forte;
+}
+
+.char-title.type{
+    color: #000;
+    opacity: 0.3;
+    font-style: italic;
+    line-height: 1;
+}
+.text-typing{
+    position: absolute;
+    text-align: left;
+}
+.text-static{
+    margin-top: 10%;
+}
+.text-bottom{
+    margin-top: 35%;
+    text-align: left;
+}
+.text-bottom > p{
+    font-style: italic;
+    color: #fff;
+    margin-top: -20px;
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 200;
+
+}
+.cquote{
+    margin-left:500px;
+}
+#cursor{
+    font-size: 5rem;
+    line-height: 3rem;
+    opacity: 0.3;
+}
