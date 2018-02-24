@@ -18,8 +18,6 @@
     width: auto;
     float: left;
 }
-
-
 .left-side{
     height: 70%; 
     width: 5%; 
@@ -35,6 +33,46 @@
     bottom: 10%;
     
 }
+.menu{
+    height: 70%; 
+    position:absolute; 
+    left: 5%;
+    bottom: 10%;
+    
+}
+.submenu{
+    height: 33.333333333%;
+    
+}
+.submenu > a{
+    color: white;
+    font-weight: 500;
+}
+.submenu > a:hover{
+    color: white;
+    text-decoration: none;
+}
+.text-submenu{
+    margin-bottom : 0;
+    width: 300px;    
+    font-family: Trebuchet MS;
+    font-weight: 10;
+    font-style: italic;
+    font-size: 0.95rem;
+}
+
+.dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 25px;
+    background-color: #fff;
+    display: inline;
+    float: left;
+    margin-right: 30px;
+    margin-left: -4px;
+    margin-top: 9px;
+}
+
 .content-text{
     height: 100%; 
     position:absolute; 
