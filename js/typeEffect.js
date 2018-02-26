@@ -1,5 +1,6 @@
 var captionLength = 0;
 var caption = '';
+var count = 0;
 
 
 $(document).ready(function() {
@@ -15,6 +16,72 @@ $(document).ready(function() {
     $('#test-erasing').click(function(){
         testErasingEffect();
     });
+    $('#a-intro').click(function(){
+        if(count == 0){
+            count = 1;
+            testErasingEffect();
+            setTimeout(function(){
+                caption = "Open Source, Open Mind!";
+                type();
+                count = 0;
+            }, 1400);  
+        }
+        
+    });
+    $('#a-internal').click(function(){
+        if(count == 0){
+            count = 1;
+            testErasingEffect();
+            setTimeout(function(){
+                caption = "We are Caring !";
+                type();
+                count = 0;
+            }, 1400);  
+        }
+        
+    });
+    $('#a-humas').click(function(){
+        if(count == 0){
+            count = 1;
+            testErasingEffect();
+            setTimeout(function(){
+                caption = "We are Sharing !";
+                type();
+                count = 0;
+            }, 1400);  
+        }
+        
+    });
+    $('#a-litbang').click(function(){
+        if(count == 0){
+            count = 1;
+            testErasingEffect();
+            setTimeout(function(){
+                caption = "We are Developing !";
+                type();
+                count = 0;
+            }, 1400);  
+        }
+        
+    });
+    // $('#a-intro').click(function(){
+    //     caption = "Open Source, Open Mind!";
+    //     type();
+        
+    // });
+    // $('#a-internal').click(function(){
+    //     caption = "We are Caring !";
+    //     type();
+
+    // });
+    // $('#a-humas').click(function(){
+    //     caption = "We are Sharing !";
+    //     type();   
+    // });
+    // $('#a-litbang').click(function(){
+    //     caption = "We are Developing !";
+    //     type();
+    // });
 });
 
 function testTypingEffect() {
@@ -42,15 +109,15 @@ function testErasingEffect() {
     if (captionLength>0) {
         erase();
     } else {
-        $('#caption').html("You didn't write anything to erase, but that's ok!");
         setTimeout('testErasingEffect()', 1000);
     }
 }
 
+
 function erase() {
     captionEl.html(caption.substr(0, captionLength--));
     if(captionLength >= 0) {
-        setTimeout('erase()', 50);
+        setTimeout('erase()', 40);
     } else {
         captionLength = 0;
         caption = '';

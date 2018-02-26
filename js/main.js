@@ -8,4 +8,5 @@ $(document).ready(function() {
         e.preventDefault();
         $.fn.fullpage.moveTo(1, 0);
     });
+    
 });

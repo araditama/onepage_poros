@@ -19,11 +19,11 @@
     float: left;
 }
 .left-side{
-    height: 70%; 
+    height: 60%; 
     width: 5%; 
     position:absolute; 
     left:0%; 
-    bottom: 10%;
+    bottom: 15%;
     border-right: 2px solid white;
 }
 .content-logo{
@@ -34,10 +34,10 @@
     
 }
 .menu{
-    height: 70%; 
+    height: 60%; 
     position:absolute; 
     left: 5%;
-    bottom: 10%;
+    bottom: 15%;
     
 }
 .submenu{
@@ -78,7 +78,7 @@
     position:absolute; 
     left: 60%;
     top: 10%;
-    width: 40%;
+    width: 35%;
     
 }
 .char-title{
@@ -87,7 +87,7 @@
     line-height: 3rem;
     padding-bottom: 40px;
     text-align: left;
-    font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+    font-family: Trebuchet MS;
 
 }
 .char-title.static{
