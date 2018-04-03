@@ -1,5 +1,10 @@
+@font-face {
+    font-family: 'Trebuchet MS';
+     src: url(../fonts/TrebuchetMS.ttf);
+   }
+
 #section0, #section1, #section2, #section3{
-    background: linear-gradient(rgba(92, 255, 198,1),rgba(0, 237, 107,1));
+    background: linear-gradient(to bottom ,#add278,#4fb66f);
 }
 
 #header{
@@ -94,7 +99,6 @@
     color: white;		
     font-size: 4.5rem;    
     font-weight: 800;
-    font-family: forte;
 }
 
 .char-title.type{
@@ -130,4 +134,8 @@
     font-size: 5rem;
     line-height: 3rem;
     opacity: 0.3;
+    font-style: normal;
+}
+@media (min-width: 768px) {
+    
 }
