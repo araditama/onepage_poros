@@ -2,7 +2,7 @@
 
 One Page POROS 
 
-## Bagian Section Page
+## Section Page
 * Section Introduction 
 * Section visi misi
 * Section Slide show (dokumentasi kegiatan)
